@@ -158,7 +158,7 @@ body {
 .hero {
   background-color: var(--background-color);
   width: 1600px;
-  height: 600px;
+  height:  600px;
 }
 
 .hero-container {
@@ -200,10 +200,16 @@ body {
   margin-left: 700px;
 }
 
-/* ------------FEATURES------------- */
+/* ------------FEATURES AND WORKS------------- */
 
 .features {
   background-color: var(--main-title-color);
+  width: 1600px
+  height: 770px;
+}
+
+.features-container {
+  display: block;
 }
 
 .visually-hidden {
@@ -223,9 +229,14 @@ body {
   weight: 270px;
   height: 101px;
   display: flex;
+  padding-top: 93px;
 }
 
-.features .item-title {
+.features-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features .title-item {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -234,7 +245,7 @@ body {
   color: var(--second-title-color);
 }
 
-.features .item-text {
+.features .text-item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -242,11 +253,19 @@ body {
 }
 
 /* ------------OUR WORK------------- */
-.work {
-  background-color: var(--main-title-color);
+.work-title {
+  padding-top: 94px
 }
-.work-img {
+
+.work-list {
   display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.work-img:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* ------------OUR TEAM------------- */
