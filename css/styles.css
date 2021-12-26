@@ -157,14 +157,10 @@ body {
 
 .hero {
   background-color: var(--background-color);
-  width: 1600px;
-  height:  600px;
+  padding-top: 200px;
 }
 
 .hero-container {
-  display: flex;
-  flex-grow: 1;
-  display: block;
   align-items: center;
 }
 
@@ -177,8 +173,6 @@ body {
   text-transform: uppercase;
   color: var(--main-title-color);
   max-width: 696px;
-  padding-top: 200px;
-  margin-left: 461px;
 }
 
 .hero-btn {
@@ -204,8 +198,7 @@ body {
 
 .features {
   background-color: var(--main-title-color);
-  width: 1600px
-  height: 770px;
+  padding-top: 93px;
 }
 
 .features-container {
@@ -226,10 +219,11 @@ body {
 }
 
 .features-list {
-  weight: 270px;
-  height: 101px;
   display: flex;
-  padding-top: 93px;
+}
+
+.features-items {
+  max-width: 270px;
 }
 
 .features-items:not(:last-child) {
@@ -254,12 +248,10 @@ body {
 
 /* ------------OUR WORK------------- */
 .work-title {
-  padding-top: 94px
+  margin-top: 94px;
 }
-
 .work-list {
   display: flex;
-  align-items: center;
   margin-top: 50px;
   margin-bottom: 94px;
 }
@@ -272,6 +264,20 @@ body {
 
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.team-items {
+}
+
+.team-items:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-item-name {
@@ -281,6 +287,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  padding-top: 30px;
 }
 
 .team-item-occupation {
@@ -289,6 +296,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
+  padding-top: 10px;
 }
 /* ------------FOOTER------------- */
 
