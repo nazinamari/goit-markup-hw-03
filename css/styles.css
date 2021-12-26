@@ -164,7 +164,6 @@ body {
 
 .hero {
   background-color: var(--background-color);
-  position: absolute;
   width: 1600px;
   height: 600px;
 }
