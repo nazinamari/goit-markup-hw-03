@@ -64,17 +64,9 @@ body {
 
 /* ------------HEADER------------- */
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.header-navigation {
   background-color: var(--main-title-color);
-}
-
-.header-navigation {
-  display: flex;
-  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header-container {
@@ -82,19 +74,22 @@ body {
   align-items: center;
 }
 
-.header-connect {
+.header-navigation {
   display: flex;
-  margin-left: auto;
+  align-items: center;
 }
 
 .header-list {
   display: flex;
 }
 
+.header-connect {
+  display: flex;
+  margin-left: auto;
+}
+
 .header-item {
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 31px;
 }
 
 .header-item:last-child {
@@ -123,8 +118,6 @@ body {
   line-height: 1, 14;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
-  padding-top: 25px;
-  padding-left: 24px;
 }
 
 .header-link:hover,
@@ -137,9 +130,9 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: var(--first-text-color)
-  padding-top: 32px;
-  padding-bottom: 32px;;
+  color: var(--first-text-color);
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .header-tel {
@@ -149,8 +142,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--first-text-color);
   margin-left: 48px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .header-mail:hover,
@@ -170,21 +163,22 @@ body {
 
 .hero-container {
   display: flex;
-  align-items: center;
   flex-grow: 1;
-} 
+  display: block;
+  align-items: center;
+}
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center; 
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  max-width: 696px;
   padding-top: 200px;
-  padding-bottom: 280px;
-  width: 696px;
+  margin-left: 461px;
 }
 
 .hero-btn {
@@ -201,13 +195,9 @@ body {
   top: 430px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-top: 350px;
-  margin-bottom: 200px
-  margin-left: 485px
-  margin-right: 485px
-  /* margin-left: 485px;
-  margin-right: 485px; */
-
+  margin-top: 30px;
+  margin-bottom: 197px;
+  margin-left: 700px;
 }
 
 /* ------------FEATURES------------- */
@@ -230,11 +220,9 @@ body {
 }
 
 .features-list {
-  position: absolute;
-  width: 270px;
+  weight: 270px;
   height: 101px;
-  left: 215px;
-  top: 774px;
+  display: flex;
 }
 
 .features .item-title {
@@ -256,6 +244,9 @@ body {
 /* ------------OUR WORK------------- */
 .work {
   background-color: var(--main-title-color);
+}
+.work-img {
+  display: flex;
 }
 
 /* ------------OUR TEAM------------- */
