@@ -38,7 +38,7 @@ address {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -278,6 +278,7 @@ body {
 }
 
 .team-items {
+  margin-bottom: 94px;
 }
 
 .team-items:not(:last-child) {
@@ -306,6 +307,12 @@ body {
 
 .footer {
   background: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  text-align: left;
 }
 
 .footer-logo {
@@ -313,6 +320,8 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .footer-logo-web {
