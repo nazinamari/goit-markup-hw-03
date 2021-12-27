@@ -224,6 +224,7 @@ body {
 
 .features-list {
   display: flex;
+  justify-content: center;
 }
 
 .features-items {
@@ -258,6 +259,7 @@ body {
   display: flex;
   margin-top: 50px;
   margin-bottom: 94px;
+  justify-content: center;
 }
 
 .work-img:not(:last-child) {
@@ -275,6 +277,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .team-items {
@@ -358,16 +361,39 @@ body {
 }
 
 /* ------------PORTFOLIO------------- */
-.portfolio-btn {
+.portfolio-container {
+  margin-top: 172px;
+  margin-bottom: 96px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-list {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  align-items: center;
+}
+
+.btn:not(:last-child) {
+  margin-right: 8px;
 }
 
 .portfolio-btn-item {
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 172px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
   color: var(--second-title-color);
 }
 
@@ -379,6 +405,20 @@ body {
 .portfolio-btn-item:focus {
   color: var(--main-title-color);
   background-color: var(--accent-color);
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-element {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.portfolio-element:nth-child(3n) {
+  margin-right: 0;
 }
 
 .portfolio-item-title {
