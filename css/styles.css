@@ -429,16 +429,19 @@ body {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .portfolio-element {
+  flex-basis: calc((100% - 3 * 30px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.portfolio-element:nth-child(3n) {
+/* .portfolio-element:nth-child(3n) {
   margin-right: 0;
-}
+} */
 
 .img-portfolio {
   display: block;
