@@ -38,11 +38,16 @@ address {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 body {
@@ -206,7 +211,6 @@ body {
 
 .features {
   background-color: var(--main-title-color);
-  padding-top: 93px;
 }
 
 .features-container {
@@ -246,6 +250,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color);
+  margin-bottom: 10px;
 }
 
 .features .text-item {
@@ -256,25 +261,21 @@ body {
 }
 
 /* ------------OUR WORK------------- */
-.work-title {
-  margin-top: 94px;
-}
+
 .work-list {
   display: flex;
   margin-top: 50px;
-  margin-bottom: 94px;
   justify-content: center;
 }
 
 .work-img:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 /* ------------OUR TEAM------------- */
 
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
 }
 
 .team-list {
@@ -284,12 +285,13 @@ body {
   justify-content: center;
 }
 
-.team-items {
-  margin-bottom: 94px;
-}
-
 .team-items:not(:last-child) {
   margin-right: 30px;
+}
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
 }
 
 .team-item-name {
@@ -299,7 +301,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  padding-top: 30px;
 }
 
 .team-item-occupation {
@@ -309,6 +310,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   padding-top: 10px;
+}
+
+.border-team-img {
+  display: block;
+  width: 270px;
+  height: 108px;
+  border-style: solid;
+  border-top: none;
+  border-width: 1px;
+  border-color: #ffffff;
+  /* border-radius: 3px;
+  border-end-start-radius: none;
+  box-shadow: 1px 1px 3px #1f0000; */
 }
 
 /* ------------FOOTER------------- */
@@ -368,10 +382,12 @@ body {
 /* ------------PORTFOLIO------------- */
 
 .portfolio-container {
-  margin-top: 172px;
-  margin-bottom: 96px;
   margin-left: auto;
   margin-right: auto;
+}
+.section_portfolio {
+  padding-top: 172px;
+  padding-bottom: 96px;
 }
 .btn-list {
   display: flex;
@@ -389,10 +405,6 @@ body {
 }
 
 .portfolio-btn-item {
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 172px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -401,6 +413,7 @@ body {
   letter-spacing: 0.03em;
   border-radius: 4px;
   color: var(--second-title-color);
+  padding: 6px 22px;
 }
 
 .portfolio-btn-item {
@@ -460,5 +473,4 @@ body {
   border-top: none;
   border-width: 1px;
   border-color: #eeeeee;
-  /* border-width: thin; */
 }
