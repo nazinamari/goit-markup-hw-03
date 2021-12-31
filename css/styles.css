@@ -211,7 +211,7 @@ body {
 
 .features {
   background-color: var(--main-title-color);
-  padding-bottom: 0;
+  padding-bottom: 0px;
 }
 
 .features-container {
